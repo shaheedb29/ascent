@@ -1,0 +1,61 @@
+@import url('https://db.onlinewebfonts.com/c/bd317adf74e5e7e564eb61ce9926cc6d?family=Gotham');
+@import url('https://db.onlinewebfonts.com/c/84693c6ac1f359fe8a4ac49b69f492dd?family=Gotham+Light');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  line-height: normal;
+  background-color: black;
+}
+
+:root {
+  --primary: #480ca8;
+  --secondary: #5e60ce;
+  --blue: #bdd5ea;
+}
+
+p {
+  font-family: 'Gotham Light', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.white-button {
+  font-family: 'Gotham', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button {
+  font-family: 'Gotham', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover,
+.white-button:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+.button:active,
+.white-button:active {
+  background-color: var(--secondary);
+  color: white;
+}
